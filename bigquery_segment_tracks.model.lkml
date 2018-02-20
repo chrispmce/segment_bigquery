@@ -1,4 +1,4 @@
-connection: "bigquery"
+connection: "bigqueryfirebase"
 
 # include all views in this project
 include: "*.view"
