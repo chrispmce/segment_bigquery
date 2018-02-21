@@ -3,23 +3,23 @@
   layout: tile
   tile_size: 200
 
-  filters:
+#  filters:
 
-  - name: event1
-    title: 'First Event'
-    type: field_filter
-    model: bigquery_segment_tracks
-    explore: track_facts
-    field: track_facts.event
-    default_value: 'signup'
+#  - name: event1
+#    title: 'First Event'
+#    type: field_filter
+#    model: bigquery_segment_tracks
+#    explore: track_facts
+#    field: track_facts.event
+#    default_value: 'account_created'
 
-  - name: event2
-    title: 'Second Event'
-    type: field_filter
-    model: bigquery_segment_tracks
-    explore: track_facts
-    field: track_facts.event
-    default_value: 'viewed_product'
+#  - name: event2
+#    title: 'Second Event'
+#    type: field_filter
+#    model: bigquery_segment_tracks
+#    explore: track_facts
+#    field: track_facts.event
+#    default_value: 'single_viewed'
 
 #   - name: event3
 #     title: 'Third Event'
@@ -39,8 +39,8 @@
     measures: [funnel_explorer.count_sessions_event1,
       funnel_explorer.count_sessions_event12, funnel_explorer.count_sessions_event123]
     listen:
-      event1: funnel_explorer.event1
-      event2: funnel_explorer.event2
+#      event1: funnel_explorer.event1
+#      event2: funnel_explorer.event2
 #       event3: funnel_explorer.event3
     sorts: [funnel_explorer.count_sessions desc]
     limit: '500'
