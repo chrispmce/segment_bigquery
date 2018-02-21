@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: website.users ;;
+  sql_table_name: android.users ;;
 
   dimension: id {
     primary_key: yes

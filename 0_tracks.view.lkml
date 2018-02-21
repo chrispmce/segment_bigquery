@@ -1,5 +1,5 @@
 view: tracks {
-  sql_table_name: website.tracks ;;
+  sql_table_name: android.tracks ;;
 
   dimension: id {
     primary_key: yes
