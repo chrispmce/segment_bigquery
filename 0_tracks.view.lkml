@@ -24,7 +24,7 @@ view: tracks {
 
   dimension_group: received {
     type: time
-    timeframes: [raw, time, date, week, month]
+    timeframes: [raw, time, date, week, month, hour]
     sql: ${TABLE}.received_at ;;
   }
 
