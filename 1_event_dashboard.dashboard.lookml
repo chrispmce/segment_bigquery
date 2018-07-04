@@ -1,5 +1,5 @@
 - dashboard: 1_event_dashboard
-  title: Tracks Overview
+  title: Test - Tracks Overview
   layout: tile
   tile_size: 100
 

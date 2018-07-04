@@ -1,5 +1,5 @@
 - dashboard: a_pageview
-  title: Pageview Summary
+  title: Test - Pageview Summary
   layout: tile
   tile_size: 100
 

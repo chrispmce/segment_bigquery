@@ -1,6 +1,6 @@
 
 - dashboard: 2_session_dashboard
-  title: Sessions Overview
+  title: Test - Sessions Overview
   layout: tile
   tile_size: 100
 

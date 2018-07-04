@@ -1,6 +1,6 @@
 
 - dashboard: 3_event_flow_dashboard
-  title: Event Flow Analysis
+  title: Test - Event Flow Analysis
   layout: tile
   tile_size: 100
 

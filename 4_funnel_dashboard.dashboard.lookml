@@ -1,5 +1,5 @@
 - dashboard: 4_funnel_dashboard
-  title: 4 Funnel Dashboard
+  title: 4 Test - Funnel Dashboard
   layout: tile
   tile_size: 200
 
