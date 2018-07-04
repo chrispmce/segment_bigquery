@@ -1,5 +1,5 @@
 view: signup_view {
-  sql_table_name: website.signup_view ;;
+  sql_table_name: android.signup_view ;;
 
   dimension: id {
     primary_key: yes
